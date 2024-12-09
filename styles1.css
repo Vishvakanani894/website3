@@ -1,0 +1,133 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  .header {
+    background-color: #254d4d;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .nav {
+    margin-top: 1rem;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.1rem;
+  }
+  
+  .nav a.active {
+    border-bottom: 2px solid #f6ad55;
+  }
+  
+  .nav a:hover {
+    color: #f6ad55;
+  }
+  
+  
+  .about-us {
+    background: #ffffff;
+    padding: 2rem 0;
+  }
+  
+  .about-us h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #171717;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-us p {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  
+  .values {
+    background-color: #edf2f7;
+    padding: 2rem 0;
+  }
+  
+  .values h2 {
+    text-align: center;
+    color: #171717;
+    margin-bottom: 1.5rem;
+  }
+  
+  .value-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .value-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .value-card h3 {
+    color: black;
+    margin-bottom: 0.5rem;
+  }
+  
+  .value-card p {
+    color: #555;
+  }
+  
+  .footer {
+    background-color: #254d4d;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
+  .footer a {
+    color: #f6ad55;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .value-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .value-card {
+      width: 80%;
+    }
+  }
+  
